@@ -1,0 +1,17 @@
+services:
+    _defaults:
+        autowire: true
+
+    Kutny\HttpClientBundle\Client\BodyDecoder:
+    
+    Kutny\HttpClientBundle\Client\CurlResourceFactory:
+    
+    Kutny\HttpClientBundle\Client\ErrorCategoryResolver:
+    
+    Kutny\HttpClientBundle\Client\RequestInfoFactory:
+    
+    Kutny\HttpClientBundle\Client\ResponseParser:
+    
+    Kutny\HttpClientBundle\Client:
+    
+    Kutny\HttpClientBundle\ClientMulti:
